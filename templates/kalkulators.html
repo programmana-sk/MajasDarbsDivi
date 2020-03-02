@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <!--<link rel="icon" href="favicon.ico" type="image/x-icon"/>-->
+    <title>
+      Kalkulators
+    </title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/kalkulators.css') }}">
+    <script src="{{ url_for('static', filename='js/kalkulators.js') }}"></script>
+    <script type="text/javascript" charset="UTF-8">
+        window.onload = () => {
+          const k = new Kalkulators("konteiners");
+        }
+    </script>
+  </head>
+  <body>
+    <h1>Kalkulators</h1>
+    <!-- spēles vieta -->
+    <div id="konteiners"></div>
+
+  </body>
+</html>
