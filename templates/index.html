@@ -1,2 +1,28 @@
-<a href="/atminasspele">Atmiņas spēle</a>
-<a href="/kalkulators">kalkulators</a>
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Darbi StartIT</title>
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/index.css') }}">
+    </head>
+    <body>
+        <div class="middle">
+
+            <div class="container">
+                <main class="content">
+                    {% block content %}
+                    
+                    {% endblock %}
+                </main><!-- .content -->
+                    </div><!-- .container-->
+    <section class="stage">
+        <div class="divaaa"><a class="aaa"href="{{ url_for('spele') }}">Spēle</a></div>
+        <div class="divaaa"><a class="aaa"href="{{ url_for('kalkulators') }}">Kalkulators</a></div>
+        <div class="divaaa"><a class="aaa" href="{{ url_for('veidotaji') }}">Veidotāji</a></div>
+        <div class="divaaa"><a class="aaa"href="{{ url_for('saites') }}">Saites</a> </div>
+            </section><!-- .left-sidebar -->
+    
+        </div><!-- .middle-->
+
+    </body>
+  </html>

@@ -1,3 +1,6 @@
+{% extends "index.html" %}
+
+{% block content %}
 <!DOCTYPE html>
 <html>
   <head>
@@ -12,14 +15,13 @@
         window.onload = () => {
           const s = new AtminasSpele("konteiners");
         }
-      
     </script>
-    
   </head>
   <body>
     <h1>Atmiņas spēle</h1>
-    <!-- spēles vieta -->
+        <!-- spēles vieta -->
     <div id="konteiners"></div>
 
   </body>
 </html>
+{% endblock %}

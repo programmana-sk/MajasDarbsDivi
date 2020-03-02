@@ -1,6 +1,7 @@
 .laukums {
   max-width: 70%;
   display: grid;
+  margin-right: 5px;
   grid-template-columns: auto auto auto auto;
   float: right;
 }
@@ -11,7 +12,7 @@ span{
 .teksts{
   padding: 5px 10px;
 	margin: 5px;
-  background: salmon;
+  background:#1b1b1b;
   border-radius: 10px;
   box-shadow: inset 2px 2px 3px rgba(0, 0, 0, .6),
                 inset -2px -2px 3px rgba(255, 255, 255, .6);
@@ -21,13 +22,13 @@ span{
   float: left;
 }
 h1{
-color: #EE872A;
 text-align: center;
 font-family: sans-serif;;
 }
 .poga{
+  color:#ffffff;
   text-transform: uppercase;
-	background: #EE872A;
+	background:#1b1b1b;
 	padding: 5px 10px;
 	margin: 5px;
 	border-radius: 10px;
@@ -36,7 +37,7 @@ font-family: sans-serif;;
                 inset -2px -2px 3px rgba(0, 0, 0, .6);
 }
 .poga:hover {
-  background-color: rgba(255, 0, 0, 1);
+  background-color:#6d6d6d
 }
 .spele-karte:hover{
   background-color: powderblue;
@@ -46,11 +47,11 @@ font-family: sans-serif;;
   background: #3d3b3b;
   padding: 8px;
   text-align: center;
-  border: 4px solid #EE872A;
+  border: 4px solid #ffffff;
 	cursor: pointer;
 	border-radius: 15px;
 	box-shadow: 0 1px 5px rgba(0,0,0,.5);
-  background: #B1B1B1;
+  background: #6d6d6d;
 }
 .spele-karte.open {
   background: grey;
@@ -59,11 +60,4 @@ font-family: sans-serif;;
 }
 .spele-karte.ok {
   background: grey;
-}
-
-html, body {
-  
-  margin:25px;
-  padding: 0;
-  background-color: grey;
 }

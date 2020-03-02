@@ -16,11 +16,6 @@
     padding:0 10px;
 }
 
-body {
-    background-color:#e5dcfa;
-      user-select: none; 
-  }
-
   #konteiners{
     max-width: 360px;
     background-color: #94a5f7;
